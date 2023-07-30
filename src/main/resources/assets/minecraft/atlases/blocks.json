@@ -1,0 +1,8 @@
+{
+  "sources":  [
+    {"type": "single", "resource": "entity/lectern_atlas2"},
+    {"type": "single", "resource": "entity/lectern_atlas_end"},
+    {"type": "single", "resource": "entity/lectern_atlas_nether"},
+    {"type": "single", "resource": "entity/lectern_atlas_unknown"}
+  ]
+}

@@ -1,0 +1,32 @@
+# Loader metadata
+modLoader = "javafml"
+loaderVersion = "[40,)"
+license = "GNU General Public License v3.0"
+issueTrackerURL = ""
+
+[[mods]]
+modId = "map_atlases"
+version = "0.9.1"
+displayName = "Map Atlases"
+credits = "Pepperoni-Jabroni - Map Atlases Fabric Mod"
+authors = "llamastein"
+description = '''
+	Port of Map Atlases Fabric Mod, should mirror v2.6.0
+	
+	[Thank you Lord, John 8:36]
+'''
+
+# Dependencies
+[[dependencies.map_atlases]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[40.1.73,)"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.map_atlases]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.18,1.18.2]"
+    ordering = "AFTER"
+    side = "BOTH"
